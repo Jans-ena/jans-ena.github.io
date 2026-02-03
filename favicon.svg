@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5D4E5D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8E4A5D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#E8C3C8"/>
+  
+  <!-- Decorative ring -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="url(#grad)" stroke-width="1.5"/>
+  
+  <!-- R letter - top, centered -->
+  <text x="32" y="24" font-family="Georgia, serif" font-size="22" font-weight="400" font-style="italic" fill="#5D4E5D" text-anchor="middle">R</text>
+  
+  <!-- Ampersand - middle, interlocking between R and J -->
+  <text x="32" y="40" font-family="Georgia, serif" font-size="16" font-style="italic" fill="#8E4A5D" text-anchor="middle">&amp;</text>
+  
+  <!-- J letter - bottom, centered -->
+  <text x="32" y="56" font-family="Georgia, serif" font-size="22" font-weight="400" font-style="italic" fill="#5D4E5D" text-anchor="middle">J</text>
+</svg>
